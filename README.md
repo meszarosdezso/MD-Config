@@ -1,1 +1,1 @@
-### My preferred config and extensions for VS Code
+### My config for my mac and VS Code for coding
