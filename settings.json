@@ -14,6 +14,7 @@
   "deno.enable": false,
   "javascript.format.semicolons": "remove",
   "typescript.format.semicolons": "remove",
+  "liveSassCompile.settings.generateMap": false,
   "liveSassCompile.settings.formats": [
     {
       "format": "compressed",
@@ -23,5 +24,6 @@
   ],
   "window.zoomLevel": -1,
   "workbench.startupEditor": "newUntitledFile",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true
 }
