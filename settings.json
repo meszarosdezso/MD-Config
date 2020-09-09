@@ -6,7 +6,6 @@
   "terminal.integrated.fontSize": 14,
   "editor.fontFamily": "Operator Mono Lig, Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.useEditorConfig": false,
@@ -25,5 +24,23 @@
   "window.zoomLevel": -1,
   "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDelete": false,
-  "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "statusbar-format-on-save.formatString": "{{status}}",
+  "statusbar-format-on-save.displayWhenTrue": "👍",
+  "statusbar-format-on-save.displayWhenFalse": "🚫",
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.suggest.insertMode": "replace"
+  },
+  "material-icon-theme.opacity": 0.8,
+  "material-icon-theme.activeIconPack": "react",
+  "debug.toolBarLocation": "docked",
+  "dart_data_class_generator.toJson.enabled": false,
+  "dart_data_class_generator.fromJson.enabled": false
 }
