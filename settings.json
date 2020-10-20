@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Ayu Dark",
+  "workbench.colorTheme": "Community Material Theme Ocean",
   "workbench.iconTheme": "material-icon-theme",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontSize": 14,
@@ -38,9 +38,17 @@
     "editor.detectIndentation": false,
     "editor.suggest.insertMode": "replace"
   },
+  "[rust]": {
+    "editor.defaultFormatter": "statiolake.vscode-rustfmt"
+  },
   "material-icon-theme.opacity": 0.8,
   "material-icon-theme.activeIconPack": "react",
   "debug.toolBarLocation": "docked",
   "dart_data_class_generator.toJson.enabled": false,
-  "dart_data_class_generator.fromJson.enabled": false
+  "dart_data_class_generator.fromJson.enabled": false,
+  "editor.wordWrap": "on",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "dart.lineLength": 82,
+  "editor.wordWrapColumn": 82
 }
