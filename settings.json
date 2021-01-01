@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Community Material Theme Ocean",
+  "workbench.colorTheme": "Tokyo Night Storm",
   "workbench.iconTheme": "material-icon-theme",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontSize": 14,
@@ -31,8 +31,14 @@
   "statusbar-format-on-save.displayWhenTrue": "👍",
   "statusbar-format-on-save.displayWhenFalse": "🚫",
   "[dart]": {
-    "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.formatOnSave": true,
+    "editor.rulers": [82],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
+    "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
@@ -50,5 +56,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "dart.lineLength": 82,
-  "editor.wordWrapColumn": 82
+  "editor.wordWrapColumn": 82,
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false
 }
