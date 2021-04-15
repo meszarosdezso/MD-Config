@@ -46,7 +46,9 @@
   },
   "editor.tokenColorCustomizations": {
     "[GitHub Dark Dimmed]": {
-      "functions": "#95cbed"
+      "functions": "#95cbed",
+      "variables": "#95cbed",
+      "strings": "#fff2bc"
     }
   },
   "bracket-pair-colorizer-2.colors": ["#95cbed", "#aaccbb", "LightSkyBlue"],
