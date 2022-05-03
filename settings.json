@@ -5,7 +5,12 @@
   "editor.fontSize": 14,
   "git.enableSmartCommit": true,
   "editor.formatOnSave": true,
+  "breadcrumbs.enabled": false,
+  "editor.padding.top": 14,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "window.title": "🫠 ${activeEditorShort}${separator}${rootName}",
+  "window.titleSeparator": " ‣ ",
+  "liveServer.settings.showOnStatusbar": false,
   "[dart]": {
     "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.formatOnSave": true,
@@ -72,21 +77,35 @@
       // "editorInlayHint.background": "#222630"
     },
     "[DuoTone Dark Space]": {
-      "activityBar.background": "#1c1d25",
-      "sideBar.background": "#1c1d25",
-      "editor.background": "#1c1d25",
+      "activityBar.background": "#17181e",
+      "sideBar.background": "#17181e",
+      "editor.background": "#17181e",
       "tab.border": "#0000",
-      "tab.inactiveBackground": "#1c1d25",
+      "tab.inactiveBackground": "#17181e",
       "window.activeBorder": "#0000",
       "widget.shadow": "#0000",
       "editorWidget.background": "#14141d",
       "activityBar.activeBackground": "#fe773411",
       "activityBar.activeBorder": "#fe7734",
-      "titleBar.activeBackground": "#1c1d25",
-      "editorGroupHeader.tabsBackground": "#1c1d25",
-      "statusBar.background": "#1c1d25",
+      "titleBar.activeBackground": "#17181e",
+      "editorGroupHeader.tabsBackground": "#17181e",
+      "statusBar.background": "#17181e",
       "gitDecoration.modifiedResourceForeground": "#ff9058",
-      "gitDecoration.untrackedResourceForeground": "#aeb5ff"
+      "gitDecoration.untrackedResourceForeground": "#b6c8ff",
+      "editorIndentGuide.background": "#fff0",
+      "editorIndentGuide.activeBackground": "#95cbed11",
+      "minimap.background": "#0000",
+      "minimap.foregroundOpacity": "#0008",
+      "scrollbar.shadow": "#0000",
+      "editorGroupHeader.border": "#0000",
+      "editorGroup.border": "#0000",
+      "editorLineNumber.foreground": "#95a8ed33",
+      "editorLineNumber.activeForeground": "#95a8edcc",
+      "editorBracketMatch.border": "#0000",
+      "editorBracketMatch.background": "#95a8ed22",
+      "sideBarSectionHeader.background": "#95a8ed00",
+      "sideBarSectionHeader.foreground": "#ffeadfdd",
+      "breadcrumb.foreground": "#95a8ed77"
     }
   },
   "editor.tokenColorCustomizations": {
@@ -94,6 +113,20 @@
       "functions": "#95cbed",
       "variables": "#95cbed",
       "strings": "#fff2bc"
+    },
+    "[DuoTone Dark Space]": {
+      "keywords": "#a5a5d6",
+      "strings": "#ffa76c",
+      "types": "#ffad65",
+      "variables": "#FF0000",
+      "textMateRules": [
+        {
+          "scope": "variable.language",
+          "settings": {
+            "foreground": "#5c5c84"
+          }
+        }
+      ]
     }
   },
   "explorer.confirmDelete": false,
