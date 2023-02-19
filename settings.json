@@ -1,14 +1,12 @@
 {
-  "workbench.colorTheme": "DuoTone Dark Space",
+  "workbench.colorTheme": "Vesper",
   "workbench.startupEditor": "none",
-  "window.zoomLevel": -1,
   "editor.fontSize": 14,
   "git.enableSmartCommit": true,
   "editor.formatOnSave": true,
-  "breadcrumbs.enabled": false,
   "editor.padding.top": 14,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "window.title": "🫠 ${activeEditorShort}${separator}${rootName}",
+  "window.title": "🥴 ${activeEditorShort}${separator}${rootName}",
   "window.titleSeparator": " ‣ ",
   "liveServer.settings.showOnStatusbar": false,
   "[dart]": {
@@ -22,7 +20,7 @@
     "editor.wordBasedSuggestions": false
   },
   "[rust]": {
-    "editor.defaultFormatter": "matklad.rust-analyzer"
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
   "workbench.colorCustomizations": {
     "[GitHub Dark Default]": {
@@ -106,9 +104,65 @@
       "sideBarSectionHeader.background": "#95a8ed00",
       "sideBarSectionHeader.foreground": "#ffeadfdd",
       "breadcrumb.foreground": "#95a8ed77"
+    },
+    "[Monochrome Dark Subtle]": {
+      "editorBracketHighlight.foreground1": "#77aadd",
+      "editorBracketHighlight.foreground2": "#88ccee",
+      "editorBracketHighlight.foreground3": "#aaeeff",
+      "editor.lineHighlightBackground": "#fff1",
+      "editorIndentGuide.background": "#0000"
+    },
+    "[Monochrome Dark]": {
+      "editorBracketHighlight.foreground1": "#ddaa77",
+      "editorBracketHighlight.foreground2": "#eecc88",
+      "editorBracketHighlight.foreground3": "#ffeeaa",
+      "editor.lineHighlightBackground": "#fff1",
+      "editorIndentGuide.background": "#0000",
+      "editorError.foreground": "#ff6666",
+      "editorWarning.foreground": "#ffdd88"
+    },
+    "[Monochrome Dark Amplified]": {
+      "editorBracketHighlight.foreground1": "#ddaa77",
+      "editorBracketHighlight.foreground2": "#eecc88",
+      "editorBracketHighlight.foreground3": "#ffeeaa",
+      "editor.lineHighlightBackground": "#fff1",
+      "editorIndentGuide.background": "#0000",
+      "editorError.foreground": "#ff6666",
+      "editorWarning.foreground": "#ffdd88"
+    },
+    "[Monochrome Light Amplified]": {
+      "editorBracketHighlight.foreground1": "#ddaa77",
+      "editorBracketHighlight.foreground2": "#eecc88",
+      "editorBracketHighlight.foreground3": "#ffeeaa",
+      "editor.lineHighlightBackground": "#fff1",
+      "editorIndentGuide.background": "#0000",
+      "editorError.foreground": "#d50000",
+      "editorWarning.foreground": "#ffdd88"
+    },
+    "[Vesper]": {
+      "editorIndentGuide.background": "#0000",
+      "editorIndentGuide.activeBackground": "#0000",
+      "editorLineNumber.dimmedForeground": "#ff0000",
+      "editorLineNumber.activeForeground": "#a8f0ea",
+      "editorLineNumber.foreground": "#fff1",
+      "editorGroup.border": "#fff1"
     }
   },
   "editor.tokenColorCustomizations": {
+    "[GitHub Dark Default]": {
+      "textMateRules": [
+        {
+          "name": "component tags",
+          "scope": [
+            "entity.name.tag", // HTML tags
+            "support.class.component" // JSX/TSX Component tags
+          ],
+          "settings": {
+            "foreground": "#99a8d4"
+          }
+        }
+      ]
+    },
     "[GitHub Dark Dimmed]": {
       "functions": "#95cbed",
       "variables": "#95cbed",
@@ -118,7 +172,6 @@
       "keywords": "#a5a5d6",
       "strings": "#ffa76c",
       "types": "#ffad65",
-      "variables": "#FF0000",
       "textMateRules": [
         {
           "scope": "variable.language",
@@ -127,11 +180,15 @@
           }
         }
       ]
+    },
+    "[Vesper]": {
+      "strings": "#a8f0ea"
     }
   },
   "explorer.confirmDelete": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.unicodeHighlight.invisibleCharacters": false,
   "extensions.ignoreRecommendations": true,
-  "dart.lineLength": 100
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": -1
 }
