@@ -9,6 +9,7 @@
   "window.title": "🥴 ${activeEditorShort}${separator}${rootName}",
   "window.titleSeparator": " ‣ ",
   "liveServer.settings.showOnStatusbar": false,
+  "editor.renderWhitespace": "none",
   "[dart]": {
     "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.formatOnSave": true,
@@ -142,10 +143,13 @@
     "[Vesper]": {
       "editorIndentGuide.background": "#0000",
       "editorIndentGuide.activeBackground": "#0000",
-      "editorLineNumber.dimmedForeground": "#ff0000",
-      "editorLineNumber.activeForeground": "#a8f0ea",
+      "editorLineNumber.activeForeground": "#F3C69D",
       "editorLineNumber.foreground": "#fff1",
-      "editorGroup.border": "#fff1"
+      "editorGroup.border": "#fff1",
+      "gitDecoration.addedResourceForeground": "#9df0b2",
+      "gitDecoration.modifiedResourceForeground": "#F3C69D",
+      "gitDecoration.untrackedResourceForeground": "#a8f0ea",
+      "list.warningForeground": "#F3C69D"
     }
   },
   "editor.tokenColorCustomizations": {
